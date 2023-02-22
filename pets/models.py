@@ -21,3 +21,8 @@ class Pet(models.Model):
 
     def __repr__(self) -> str:
         return f"<[{self.id}] {self.name} - {self.age}years - {self.weight}kg - {self.sex} - {self.group} - {self.traits}>"
+
+
+#remember to clean
+class TestSSHKeyMod():
+    ...
